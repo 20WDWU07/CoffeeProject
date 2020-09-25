@@ -1,0 +1,32 @@
+.header-logo-image{
+  @include imageStyle(auto, 150px, auto, block, none, 50% );
+  position: sticky;
+  top: 0;
+
+}
+.header-banner{
+  padding: 0;
+
+}
+
+.header-banner-image{
+  @include imageStyle(100vw, auto, auto, block, none, 0 );
+  overflow: hidden;
+}
+.gallery-coffee-image{
+  margin: 50px auto;
+  display:block;
+  width: 90%;
+  // transform :skewY(-30deg);
+  border-radius: 0 30% ;
+  // width:100%;
+  // clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+}
+
+video{
+  object-fit: cover;
+  width:100%; /*viewport width*/
+  height:auto;/*viewport height*/
+  margin-top: 60px;
+
+}

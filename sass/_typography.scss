@@ -1,0 +1,156 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: $secondary;
+}
+li{
+  list-style: none;
+  margin: 10px 15px;
+  // font-weight: 80;
+  // font-style: italic;
+}
+a{
+  text-decoration: none;
+}
+
+a:link{
+  color: $secondary;
+  font-weight:  400;
+  font-size: 5rem;
+}
+a:visited{
+  color: $tertiary;
+
+}
+a:hover{
+  color: $tertiary;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+h1{
+  font-weight: 800;
+  color: white;
+  text-align: center;
+}
+h3{
+  font-weight: 400;
+}
+
+
+.home-text{
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 1.3rem;
+}
+
+
+.title{
+  background: #3D2923;
+  border: 1px solid red;
+  width: 100%;
+}
+
+.title h1{
+  margin: 3%;
+  padding: 20px;
+}
+
+#coffee-project {
+  margin: 50px;
+}
+
+.para-coff {
+  text-align: center;
+  margin: 10px;
+  margin-top: -75px;
+  margin-bottom: 50px;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.list-tasks {
+  padding: 10px;
+  margin: 10px auto;
+  font-size: 1.2rem;
+  // text-align: left;
+  // border: 1px solid red;
+  width: 40%;
+  li {
+    list-style: disc;
+  }
+}
+
+.list-tasks-two {
+  padding: 10px;
+  margin: 10px auto;
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+  // border: 1px solid red;
+  width: 50%;
+  text-align: center;
+}
+
+iframe {
+  margin: 40px auto;
+  display: block;
+}
+
+.row-coff {
+  width: 80%;
+  margin: auto;
+  display: block;
+  // height:
+  background-color: #DBD0C1;
+  // border: 1px solid blue;
+}
+
+.col-one  {
+  float: left;
+  background: white;
+  width: 45%;
+  // max-height: 800px;
+  // border: 1px solid red;
+  margin-right: 70px;
+  border-radius: 25px;
+}
+
+.col-two  {
+  float: left;
+  background: white;
+  border-radius: 25px;
+  width: 45%;
+  // max-height: 800px;
+  // border: 1px solid red;
+}
+
+.header-coff {
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  color: #3D2923
+}
+
+.tittle-coff-h {
+  font-size: 40px;
+}
+
+.color-names {
+  color: white;
+}
+
+
+@media only screen and (max-width: 1790px) {
+  .col-one, .col-two {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 766px) {
+  .col-one, .col-two {
+    width: 100%;
+    margin-top: 20px;
+  }
+}

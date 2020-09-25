@@ -1,0 +1,18 @@
+footer{
+  width:100%;
+  border: 1px solid $secondary;
+  background: $primary;
+  text-align: center;
+
+}
+.footer-notice{
+  font-size: 1.2rem;
+  background: none;
+  color:$tertiary;
+
+}
+.footer-copyright{
+  font-size: 1rem;
+  color:$tertiary;
+  background: none;
+}

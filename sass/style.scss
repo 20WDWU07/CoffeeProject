@@ -1,0 +1,22 @@
+@import 'reset';
+@import 'variables';
+@import 'mixins';
+@import 'contact';
+@import 'typography';
+@import 'buttons';
+@import 'containers';
+@import 'images';
+@import 'icons';
+@import 'nav';
+@import 'header';
+@import 'footer';
+@import 'mobile';
+@import 'tablet';
+@import 'desktop';
+@import 'gallery';
+
+
+
+body {
+  background-color: #DBD0C1;
+}
