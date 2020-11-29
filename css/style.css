@@ -172,10 +172,11 @@ h3 {
   font-weight: 400; }
 
 .home-text {
-  width: 60%;
+  width: 80%;
   margin: 20px auto;
   padding: 20px;
-  font-size: 1.3rem; }
+  font-size: 1.3rem;
+  line-height: 30px; }
 
 .title {
   background: #3D2923;
@@ -296,6 +297,9 @@ div, nav, header, footer {
 
 .gallery {
   margin: 100px auto; }
+
+.textPara {
+  border: 1px solid red; }
 
 .header-logo-image {
   width: auto;
